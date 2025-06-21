@@ -3,66 +3,53 @@
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hana Lee 李韓娜 官方網站</title>
+    <title>Hana Lee 李韓娜</title>
     <style>
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            margin: 0;
-            padding: 40px;
-            background-color: #f8f8f8;
-            color: #111;
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.2rem;
-        }
-        h2 {
-            margin-top: 3rem;
-            font-size: 1.8rem;
-        }
-        p {
-            font-size: 1.1rem;
-        }
-        .subtitle {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-        .quote {
-            font-style: italic;
-            color: #555;
-            margin-bottom: 1.5rem;
-        }
-        .buttons {
-            margin-top: 1.5rem;
-        }
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; color: #111; }
+        h1 { font-size: 2.2em; }
+        .section { margin-top: 40px; }
         .buttons a {
             display: inline-block;
-            background-color: #0066ff;
+            padding: 10px 20px;
+            margin: 5px;
             color: white;
+            background-color: #006eff;
             text-decoration: none;
-            padding: 10px 16px;
-            margin: 8px 10px 8px 0;
-            border-radius: 6px;
-            font-size: 1rem;
+            border-radius: 5px;
         }
-        .buttons a:hover {
-            background-color: #004dc1;
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 48%;
+            margin: 1%;
+            border-radius: 6px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
         }
     </style>
 </head>
 <body>
-
     <h1>Hana Lee 李韓娜</h1>
-    <div class="subtitle">P圖公社創辦人 / AI咒語公社創辦人</div>
-    <div class="quote">Bringing warmth back to every photo is the heart of my work.</div>
+    <p>P圖公社創辦人 / AI咒語公社創辦人</p>
+    <p><em>Bringing warmth back to every photo is the heart of my work.</em></p>
 
-    <h2>加入社團 Connect with Me</h2>
-    <div class="buttons">
-        <a href="https://www.facebook.com/Hana.Queen.0927" target="_blank">📌 前往 Hana Lee 的專頁</a>
-        <a href="https://www.facebook.com/groups/hanaleeptugongse" target="_blank">📌 加入 P圖公社</a>
-        <a href="https://www.facebook.com/groups/3208727879422567" target="_blank">📌 加入 AI咒語公社社團</a>
+    <div class="section">
+        <h2>加入社團 Connect with Me</h2>
+        <div class="buttons">
+            <a href="https://www.facebook.com/Hana.Queen.0927" target="_blank">📌 前往 Hana Lee 的專頁</a>
+            <a href="https://www.facebook.com/groups/hanaleeptugongse" target="_blank">📌 加入 P圖公社</a>
+            <a href="https://www.facebook.com/groups/3208727879422567" target="_blank">📌 加入 AI咒語公社社團</a>
+        </div>
     </div>
 
+    <div class="section">
+        <h2>作品範例</h2>
+        <div class="gallery">
+            <img src="sample1.png" alt="作品範例 1">
+            <img src="sample2.png" alt="作品範例 2">
+        </div>
+    </div>
 </body>
 </html>
