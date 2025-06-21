@@ -1,0 +1,64 @@
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #fdfdfd;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 920px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.quote {
+  font-style: italic;
+  color: #444;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  background-color: #006aff;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 0.95rem;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.images img {
+  width: 48%;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
