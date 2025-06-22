@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>龍山神料企業 - Longsan Enterprise</title>
+  <title>龍山神料企業 - Longsanenterprise</title>
   <style>
     body {
       background-color: #fff0f5;
@@ -12,6 +12,37 @@
       font-family: 'Helvetica Neue', sans-serif;
       margin: 0;
       padding: 0;
+    }
+
+    header {
+      background-color: #330000;
+      text-align: center;
+      padding: 0;
+    }
+
+    .hero-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .title-bar {
+      background-color: #b30059;
+      color: white;
+      padding: 10px 20px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
 
     h1, h2, h3 {
@@ -41,40 +72,6 @@
       background-color: #b30059;
     }
 
-    .logo-banner {
-      text-align: center;
-      background-color: #fff0f5;
-      padding-top: 20px;
-    }
-
-    .logo-wrapper {
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .logo-wrapper img {
-      width: 100%;
-      height: auto;
-      border-radius: 16px;
-      display: block;
-    }
-
-    .logo-caption {
-      text-align: center;
-      font-size: 18px;
-      color: #b30059;
-      margin-top: 8px;
-    }
-
-    .content {
-      max-width: 800px;
-      margin: auto;
-      padding: 40px 20px;
-      background-color: white;
-      border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
     .social-links {
       margin-top: 20px;
     }
@@ -90,22 +87,16 @@
       line-height: 1.8;
     }
 
-    .about-section h2 {
-      margin-top: 20px;
-    }
-
     .lang-block {
       margin-bottom: 30px;
     }
   </style>
 </head>
 <body>
-  <div class="logo-banner">
-    <div class="logo-wrapper">
-      <img src="logo.png" alt="龍山神料企業 Banner Logo" />
-      <div class="logo-caption">Longsanenterprise</div>
-    </div>
-  </div>
+  <header>
+    <img class="hero-image" src="logo.jpg" alt="龍山神料企業 Logo">
+    <div class="title-bar">龍山神料企業 · Longsanenterprise</div>
+  </header>
 
   <div class="content">
     <h1>龍山神料企業</h1>
@@ -141,5 +132,10 @@
       </div>
     </div>
   </div>
+
+  <footer style="background-color:#f8d7e5; color:#333; text-align:center; padding:20px; font-size:14px; margin-top:40px;">
+    📜 隱私權聲明：本網站尊重並保護使用者的個人資料，不會將您的聯絡資訊提供給第三方。所有交易與資料收集均遵循資料保護法規。<br />
+    🔐 Privacy Policy: This site respects and protects your personal data. We do not share your contact information with third parties. All activity complies with data protection laws.
+  </footer>
 </body>
 </html>
